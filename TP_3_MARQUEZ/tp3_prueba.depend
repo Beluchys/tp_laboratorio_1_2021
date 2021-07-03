@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1625274180 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1565993298 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\linkedlist.h
+
+1625274140 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\employee.h
+
+1625274342 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"LinkedList.h"
+
+1625267873 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1625257371 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\controller.h
+
+1625256583 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1625266644 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\validaciones_marquez.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones_marquez.h"
+
+1625266427 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\segunda parte completa - dinamica\tp3_prueba\validaciones_marquez.h
+
+1625275147 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1565993298 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\linkedlist.h
+
+1625274140 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\employee.h
+
+1625276704 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1625274900 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\controller.h
+
+1625256583 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1625276085 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\validaciones_marquez.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones_marquez.h"
+
+1625266427 c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\validaciones_marquez.h
+
+1625276013 source:c:\users\gmarquez\desktop\utn\1er cuatrimestre\laboratorio i y programaci”n i\tp finales para subir\tp_3_marquez\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"LinkedList.h"
+
