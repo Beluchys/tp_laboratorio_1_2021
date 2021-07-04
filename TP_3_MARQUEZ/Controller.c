@@ -81,8 +81,8 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
         printf("                     ALTA DE EMPLEADO\n");
         printf("----------------------------------------------------------------\n");
         if(utn_getNombre(nombre,128,"Ingrese nombre: ","Error en el Nombre, solo se permiten letras y hasta 20 caracteres\n",3) &&
-                utn_getNumero(&horasTrabajadas,"Ingrese cantidad de horas trabajadas: ", "Error en las horas. Vuelva a intentarlo (de 0 a 5000)\n",0,5000,3) &&
-                utn_getNumero(&sueldo,"Ingrese sueldo: ", "Error. (de 1 a 500000)\n",1,500000,3))
+                utn_getNumero(&horasTrabajadas,"Ingrese cantidad de horas trabajadas: ", "Error en las horas. Vuelva a intentarlo (de 0 a 500)\n",0,500,3) &&
+                utn_getNumero(&sueldo,"Ingrese sueldo: ", "Error. (de 1 a 50000)\n",1,50000,3))
         {
             id = employee_generateId(pArrayListEmployee, ll_len(pArrayListEmployee));
             auxEmpleado = employee_newParametrosNoEsStr(id, nombre, horasTrabajadas, sueldo);
@@ -122,7 +122,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
     {
         controller_ListEmployee(pArrayListEmployee); //Muestro la lista de empleados
 
-        utn_getNumero(&idEmp, "\nIngreses el ID del empleado a modificar: ","Error - ID incorrecto. Vuelva a ingresarlo: \n", 1, 50000, 3);
+        utn_getNumero(&idEmp, "\nIngreses el ID del empleado a modificar: ","Error - ID incorrecto. Vuelva a ingresarlo: \n", 1, 2000, 3);
 
         index = buscarPorId(pArrayListEmployee,idEmp); //Busco el empleado por ID
 
@@ -156,7 +156,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
                 case 2:
                     system("cls");
                     mostrarEmpleado(pEmployee);
-                    if(utn_getNumero(&horasEmp,"Ingrese la nueva cantidad de horas: ","Error. Vuelva a ingresar la cantidad de horas\n", 1, 5000, 3))
+                    if(utn_getNumero(&horasEmp,"Ingrese la nueva cantidad de horas: ","Error. Vuelva a ingresar la cantidad de horas\n", 1, 500, 3))
                     {
                         employee_setHorasTrabajadas(pEmployee, horasEmp);
 
@@ -168,7 +168,7 @@ int controller_editEmployee(LinkedList* pArrayListEmployee)
                 case 3:
                     system("cls");
                     mostrarEmpleado(pEmployee);
-                    if(utn_getNumero(&sueldoEmp,"Ingrese el nuevo sueldo: ","ERROR - Vuelva a ingresar el nuevo sueldo: \n", 1, 500000, 3))
+                    if(utn_getNumero(&sueldoEmp,"Ingrese el nuevo sueldo: ","ERROR - Vuelva a ingresar el nuevo sueldo: \n", 1, 50000, 3))
                     {
                         employee_setSueldo(pEmployee, sueldoEmp);
                         printf("Se modifico el sueldo Correctamente. \n\n");
@@ -217,7 +217,7 @@ int controller_removeEmployee(LinkedList* pArrayListEmployee)
 
         controller_ListEmployee(pArrayListEmployee); //Muestro la lista de empleados
 
-        utn_getNumero(&id, "\nIngreses el ID del empleado a eliminar: ","Error - ID incorrecto. Vuelva a ingresarlo: \n", 1, 50000, 3);
+        utn_getNumero(&id, "\nIngreses el ID del empleado a eliminar: ","Error - ID incorrecto. Vuelva a ingresarlo: \n", 1, 2000, 3);
         index = buscarPorId(pArrayListEmployee, id);
         if(index!=-1)
         {
