@@ -80,8 +80,8 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
         printf("\n----------------------------------------------------------------\n");
         printf("                     ALTA DE EMPLEADO\n");
         printf("----------------------------------------------------------------\n");
-        if(utn_getNombre(nombre,128,"Ingrese nombre: ","Error en el Nombre, solo se permiten letras y hasta 20 caracteres\n",3) &&
-                utn_getNumero(&horasTrabajadas,"Ingrese cantidad de horas trabajadas: ", "Error en las horas. Vuelva a intentarlo (de 0 a 500)\n",0,500,3) &&
+        if(utn_getNombre(nombre,128,"Ingrese nombre: ","Error en el Nombre, solo se permiten letras y de 3 hasta 20 caracteres\n",3) &&
+                utn_getNumero(&horasTrabajadas,"Ingrese cantidad de horas trabajadas: ", "Error en las horas. Vuelva a intentarlo (de 1 a 500)\n",1,500,3) &&
                 utn_getNumero(&sueldo,"Ingrese sueldo: ", "Error. (de 1 a 50000)\n",1,50000,3))
         {
             id = employee_generateId(pArrayListEmployee, ll_len(pArrayListEmployee));
